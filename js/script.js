@@ -7,3 +7,13 @@ function drawTree(star) {
 }	
 
 drawTree('*');
+
+function drawTree(n) {
+	var stars = '*';
+	for (var i = n ; i > 0 ; i--) {
+		console.log(stars);
+		stars += '*';
+	}
+}
+
+drawTree(9);
